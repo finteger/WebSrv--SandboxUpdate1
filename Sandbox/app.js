@@ -26,7 +26,7 @@ app.use(express.static('public'));
 app.use(express.static('public/images'));
 app.use(express.static('public/css'));
 
-const url = `mongodb+srv://ToddN:Summer2023$@cluster0.7as6vrs.mongodb.net/students`;
+const url = `mongodb+srv://<your username>:<yourpassword>@cluster0.7as6vrs.mongodb.net/students`;
 
 const connectionParams={
     useNewUrlParser: true,
